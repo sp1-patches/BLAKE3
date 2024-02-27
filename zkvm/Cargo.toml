@@ -1,0 +1,8 @@
+[package]
+name = "blake3_zkvm"
+version = "0.0.0"
+edition = "2021"
+
+[lib]
+name = "blake3_zkvm"
+path = "blake3_zkvm.rs"
