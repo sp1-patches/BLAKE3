@@ -6,9 +6,10 @@
 
 use core::cmp::min;
 
+// These values are in u32s
 const OUT_LEN: usize = 8;
 const KEY_LEN: usize = 8;
-const BLOCK_LEN: usize = 16;
+pub const BLOCK_LEN: usize = 16;
 const CHUNK_LEN: usize = 256;
 
 const CHUNK_START: u32 = 1 << 0;
