@@ -1,5 +1,5 @@
 [package]
-name = "blake3_zkvm"
+name = "blake3-zkvm"
 version = "0.1.0"
 edition = "2021"
 
